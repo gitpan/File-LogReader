@@ -1,20 +1,16 @@
---- 
-author: 
-  - Luke Closs <file-logreader@5thplane.com>
-build_requires: 
-  Test::More: 0
-distribution_type: module
-generated_by: Module::Install version 0.68
-license: perl
-meta-spec: 
-  url: http://module-build.sourceforge.net/META-spec-v1.3.html
-  version: 1.3
-name: File-LogReader
-no_index: 
-  directory: 
-    - inc
-    - t
-requires: 
-  Digest::SHA1: 0
-  YAML: 0
-version: 0.02
+--- #YAML:1.0
+name:                File-LogReader
+version:             0.03
+abstract:            ~
+license:             ~
+generated_by:        ExtUtils::MakeMaker version 6.36
+distribution_type:   module
+requires:     
+    Digest::SHA1:                  0
+    Test::More:                    0
+    YAML:                          0
+meta-spec:
+    url:     http://module-build.sourceforge.net/META-spec-v1.2.html
+    version: 1.2
+author:
+    - Luke Closs <file-logreader@5thplane.com>
